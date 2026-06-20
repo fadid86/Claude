@@ -30,9 +30,8 @@ Each employee creates their own routine with their own `TRELLO_*` environment va
 >    an external party; `Active` = in my court / nothing blocking (the default).
 > 6. Do not create, move, or archive cards. Labeling only.
 >
-> Definition of done: every open BACKLOG card has one Type + one Status label. Post a short
-> summary — total cards, how many were already complete, how many you labeled, and a list of
-> any cards where the Type was a genuine judgment call (with the call you made and why).
+> Definition of done: every open BACKLOG card has exactly one Type label and one Status
+> label. No per-card write-up is required — make the best-guess call on every card and move on.
 
 ---
 
@@ -62,3 +61,6 @@ read the summary (a green status only means the session started, not that the ta
   `TRELLO_BOARD_ID` and their own key/token. Nothing is shared between boards.
 - **Butler alternative:** the optional Butler daily sort (see the skill) re-orders cards by
   label; it does not assign labels. This routine assigns them.
+- **Want a daily report?** The prompt is set to best-guess every card with no write-up. To
+  get a summary instead, append this to the prompt: *"Then post a short summary — total
+  cards, how many were already labeled, how many you labeled, and any genuine judgment calls."*
